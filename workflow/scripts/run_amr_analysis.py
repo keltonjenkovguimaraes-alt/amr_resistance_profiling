@@ -7,11 +7,11 @@ import numpy as np
 from collections import defaultdict, Counter
 from datetime import date
 
-VCF = "/home/kelton/microbial_variant_calling/results/variants/final/SRR7801919.filtered_snps_final.vcf.gz"
-VEP = "/home/kelton/microbial_variant_calling/results/annotation/SRR7801919_snps_vep.txt"
+VCF = "/path/to/your/new_fungus.vcf.gz"
+VEP = "/path/to/your/new_fungus.vep.txt"
 OUTDIR = "results"
 SAMPLE = "SRR7801919"
-ORGANISM = "Candida albicans"
+ORGANISM = "Your_Fungus_Name" #Must match ECXACLTY what's in JSON
 
 for d in ["amr_genes","virulence","mlst","figures"]:
     os.makedirs(f"{OUTDIR}/{d}", exist_ok=True)
