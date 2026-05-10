@@ -1,52 +1,32 @@
 {
   "Candida_albicans": {
     "genes": {
-      "ERG11": {
+      "ERG1": {
         "drug_class": "Azoles",
-        "mechanism": "Drug target"
+        "mechanism": "Squalene epoxidase"
       },
-      "FKS1": {
-        "drug_class": "Echinocandins",
-        "mechanism": "Drug target"
-      },
-      "CDR1": {
-        "drug_class": "Azoles",
-        "mechanism": "Efflux pump"
-      },
-      "CDR2": {
-        "drug_class": "Azoles",
-        "mechanism": "Efflux pump"
-      },
-      "MDR1": {
-        "drug_class": "Azoles",
-        "mechanism": "Efflux pump"
-      },
-      "TAC1": {
-        "drug_class": "Azoles",
-        "mechanism": "Regulator"
+      "ERG2": {
+        "drug_class": "Azoles/Polyenes",
+        "mechanism": "C-8 sterol isomerase"
       },
       "ERG3": {
-        "drug_class": "Polyenes",
-        "mechanism": "Target alteration"
-      },
-      "FCY1": {
-        "drug_class": "Flucytosine",
-        "mechanism": "Prodrug activation"
-      },
-      "FUR1": {
-        "drug_class": "Flucytosine",
-        "mechanism": "Prodrug activation"
-      },
-      "ERG1": {
         "drug_class": "Azoles/Polyenes",
-        "mechanism": "Squalene epoxidase"
+        "mechanism": "\u03945,6-desaturase"
       },
       "ERG4": {
         "drug_class": "Azoles",
-        "mechanism": "C-24 reductase"
+        "mechanism": "C-24 sterol reductase"
+      },
+      "ERG5": {
+        "drug_class": "Azoles",
+        "mechanism": "C-22 desaturase"
+      },
+      "ERG6": {
+        "drug_class": "Azoles",
+        "mechanism": "C-24 methyltransferase"
       },
       "ERG7": {
-        "drug_class": "Azoles/Polyenes",
+        "drug_class": "Azoles",
         "mechanism": "Lanosterol synthase"
       },
       "ERG8": {
@@ -57,13 +37,41 @@
         "drug_class": "Azoles",
         "mechanism": "Squalene synthase"
       },
+      "ERG10": {
+        "drug_class": "Azoles",
+        "mechanism": "Acetyl-CoA acetyltransferase"
+      },
+      "ERG11": {
+        "drug_class": "Azoles",
+        "mechanism": "14\u03b1-demethylase (DRUG TARGET)"
+      },
       "ERG12": {
         "drug_class": "Azoles",
         "mechanism": "Mevalonate kinase"
       },
+      "ERG13": {
+        "drug_class": "Azoles",
+        "mechanism": "HMG-CoA synthase"
+      },
       "ERG20": {
         "drug_class": "Azoles",
-        "mechanism": "Farnesyl pyrophosphate synthetase"
+        "mechanism": "Farnesyl PP synthetase"
+      },
+      "ERG24": {
+        "drug_class": "Azoles",
+        "mechanism": "C-14 reductase"
+      },
+      "ERG25": {
+        "drug_class": "Azoles",
+        "mechanism": "C-4 methyl oxidase"
+      },
+      "ERG26": {
+        "drug_class": "Azoles",
+        "mechanism": "C-3 dehydrogenase"
+      },
+      "ERG27": {
+        "drug_class": "Azoles",
+        "mechanism": "3-ketoreductase"
       },
       "IDI1": {
         "drug_class": "Azoles",
@@ -73,9 +81,21 @@
         "drug_class": "Azoles",
         "mechanism": "Mevalonate decarboxylase"
       },
-      "UPC2": {
+      "CDR1": {
         "drug_class": "Azoles",
-        "mechanism": "Sterol uptake regulator"
+        "mechanism": "ABC transporter (major efflux)"
+      },
+      "CDR2": {
+        "drug_class": "Azoles",
+        "mechanism": "ABC transporter (efflux)"
+      },
+      "CDR3": {
+        "drug_class": "Azoles",
+        "mechanism": "ABC transporter"
+      },
+      "CDR4": {
+        "drug_class": "Azoles",
+        "mechanism": "ABC transporter"
       },
       "SNQ2": {
         "drug_class": "Multidrug",
@@ -93,17 +113,9 @@
         "drug_class": "Azoles",
         "mechanism": "Lipid transfer protein"
       },
-      "FLU1": {
+      "PDR17": {
         "drug_class": "Azoles",
-        "mechanism": "MFS transporter"
-      },
-      "TPO1": {
-        "drug_class": "Multidrug",
-        "mechanism": "MFS transporter"
-      },
-      "QDR1": {
-        "drug_class": "Multidrug",
-        "mechanism": "MFS transporter"
+        "mechanism": "Lipid transfer protein"
       },
       "AUS1": {
         "drug_class": "Azoles",
@@ -129,9 +141,89 @@
         "drug_class": "Multidrug",
         "mechanism": "Vacuolar ABC transporter"
       },
-      "GAP1": {
+      "MDR1": {
+        "drug_class": "Azoles",
+        "mechanism": "MFS transporter (fluconazole)"
+      },
+      "FLU1": {
+        "drug_class": "Azoles",
+        "mechanism": "MFS transporter (fluconazole)"
+      },
+      "TPO1": {
         "drug_class": "Multidrug",
-        "mechanism": "Amino acid MFS transporter"
+        "mechanism": "MFS transporter"
+      },
+      "QDR1": {
+        "drug_class": "Multidrug",
+        "mechanism": "MFS transporter"
+      },
+      "TAC1": {
+        "drug_class": "Azoles",
+        "mechanism": "CDR1/2 activator"
+      },
+      "UPC2": {
+        "drug_class": "Azoles",
+        "mechanism": "Sterol uptake regulator"
+      },
+      "MRR1": {
+        "drug_class": "Azoles",
+        "mechanism": "MDR1 regulator"
+      },
+      "NDT80": {
+        "drug_class": "Azoles",
+        "mechanism": "CDR1 expression regulator"
+      },
+      "CAP1": {
+        "drug_class": "Azoles",
+        "mechanism": "Stress response TF"
+      },
+      "ECM22": {
+        "drug_class": "Azoles",
+        "mechanism": "Sterol regulatory protein"
+      },
+      "FKS1": {
+        "drug_class": "Echinocandins",
+        "mechanism": "\u03b2-1,3-glucan synthase (TARGET)"
+      },
+      "FKS2": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Alternative glucan synthase"
+      },
+      "FKS3": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Glucan synthase-related"
+      },
+      "GSC1": {
+        "drug_class": "Echinocandins",
+        "mechanism": "FKS1 homolog"
+      },
+      "GSL1": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Glucan synthase-like"
+      },
+      "GSL2": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Glucan synthase-like"
+      },
+      "RHO1": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Glucan synthase activator"
+      },
+      "ROM2": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Rho1 GEF"
+      },
+      "CHS1": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Chitin synthase 1"
+      },
+      "CHS2": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Chitin synthase 2"
+      },
+      "CHS3": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Chitin synthase 3 (major)"
       },
       "CHS4": {
         "drug_class": "Echinocandins",
@@ -145,21 +237,21 @@
         "drug_class": "Echinocandins",
         "mechanism": "Chitin synthase regulator"
       },
+      "CHS8": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Chitin synthase 8"
+      },
       "PKC1": {
         "drug_class": "Echinocandins",
         "mechanism": "Cell wall integrity kinase"
       },
       "MKC1": {
         "drug_class": "Echinocandins",
-        "mechanism": "MAP kinase - cell wall"
+        "mechanism": "MAP kinase cell wall"
       },
       "BCK1": {
         "drug_class": "Echinocandins",
-        "mechanism": "MAPKK - cell wall"
-      },
-      "RHO1": {
-        "drug_class": "Echinocandins",
-        "mechanism": "Glucan synthase activator"
+        "mechanism": "MAPKK cell wall"
       },
       "WSC1": {
         "drug_class": "Echinocandins",
@@ -167,35 +259,15 @@
       },
       "MID2": {
         "drug_class": "Echinocandins",
-        "mechanism": "Cell wall sensor"
+        "mechanism": "Cell wall stress sensor"
       },
-      "MNN1": {
-        "drug_class": "Echinocandins",
-        "mechanism": "Mannosyltransferase"
+      "HSP90": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Hsp90 chaperone"
       },
-      "MNN2": {
-        "drug_class": "Echinocandins",
-        "mechanism": "Mannosyltransferase"
-      },
-      "MNN9": {
-        "drug_class": "Echinocandins",
-        "mechanism": "Mannan synthesis"
-      },
-      "OCH1": {
-        "drug_class": "Echinocandins",
-        "mechanism": "Mannosyltransferase"
-      },
-      "PMT1": {
-        "drug_class": "Echinocandins",
-        "mechanism": "O-mannosyltransferase"
-      },
-      "PMT2": {
-        "drug_class": "Echinocandins",
-        "mechanism": "O-mannosyltransferase"
-      },
-      "PMT4": {
-        "drug_class": "Echinocandins",
-        "mechanism": "O-mannosyltransferase"
+      "HSP70": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Hsp70 chaperone"
       },
       "HSP60": {
         "drug_class": "Drug Tolerance",
@@ -204,10 +276,6 @@
       "HSP104": {
         "drug_class": "Drug Tolerance",
         "mechanism": "Protein disaggregase"
-      },
-      "HSP12": {
-        "drug_class": "Drug Tolerance",
-        "mechanism": "Small heat shock protein"
       },
       "SSA1": {
         "drug_class": "Drug Tolerance",
@@ -223,11 +291,19 @@
       },
       "CDC37": {
         "drug_class": "Drug Tolerance",
-        "mechanism": "Kinase targeting chaperone"
+        "mechanism": "Hsp90 co-chaperone"
       },
-      "AHA1": {
+      "CNA1": {
         "drug_class": "Drug Tolerance",
-        "mechanism": "Hsp90 activator"
+        "mechanism": "Calcineurin A"
+      },
+      "CNB1": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Calcineurin B"
+      },
+      "CRZ1": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Calcineurin TF"
       },
       "CMK1": {
         "drug_class": "Drug Tolerance",
@@ -237,181 +313,509 @@
         "drug_class": "Drug Tolerance",
         "mechanism": "Ca/calmodulin kinase"
       },
-      "SOD3": {
+      "AHA1": {
         "drug_class": "Drug Tolerance",
-        "mechanism": "Superoxide dismutase"
+        "mechanism": "Hsp90 activator"
       },
-      "TRR1": {
+      "HSP12": {
         "drug_class": "Drug Tolerance",
-        "mechanism": "Thioredoxin reductase"
+        "mechanism": "Small heat shock protein"
       },
-      "GLR1": {
-        "drug_class": "Drug Tolerance",
-        "mechanism": "Glutathione reductase"
+      "FCY1": {
+        "drug_class": "Flucytosine",
+        "mechanism": "Cytosine deaminase"
       },
-      "PRX1": {
-        "drug_class": "Drug Tolerance",
-        "mechanism": "Peroxiredoxin"
+      "FCY2": {
+        "drug_class": "Flucytosine",
+        "mechanism": "Purine-cytosine permease"
       },
-      "RAD52": {
-        "drug_class": "Drug Tolerance",
-        "mechanism": "DNA repair protein"
-      },
-      "RAD53": {
-        "drug_class": "Drug Tolerance",
-        "mechanism": "Checkpoint kinase"
-      },
-      "MEC1": {
-        "drug_class": "Drug Tolerance",
-        "mechanism": "DNA damage sensor kinase"
+      "FUR1": {
+        "drug_class": "Flucytosine",
+        "mechanism": "Uracil PRTase"
       }
     }
   },
-  "Escherichia_coli": {
+  "Candida_auris": {
     "genes": {
-      "blaTEM": {
-        "drug_class": "Beta-lactams",
-        "mechanism": "Beta-lactamase"
+      "ERG1": {
+        "drug_class": "Azoles",
+        "mechanism": "Squalene epoxidase"
       },
-      "blaSHV": {
-        "drug_class": "Beta-lactams",
-        "mechanism": "Beta-lactamase"
+      "ERG3": {
+        "drug_class": "Azoles/Polyenes",
+        "mechanism": "\u03945,6-desaturase"
       },
-      "blaCTX-M": {
-        "drug_class": "Cephalosporins",
-        "mechanism": "ESBL"
+      "ERG5": {
+        "drug_class": "Azoles",
+        "mechanism": "C-22 desaturase"
       },
-      "blaKPC": {
-        "drug_class": "Carbapenems",
-        "mechanism": "Carbapenemase"
+      "ERG6": {
+        "drug_class": "Azoles",
+        "mechanism": "C-24 methyltransferase"
       },
-      "blaNDM": {
-        "drug_class": "Carbapenems",
-        "mechanism": "Carbapenemase"
+      "ERG11": {
+        "drug_class": "Azoles",
+        "mechanism": "14\u03b1-demethylase (TARGET)"
       },
-      "tetA": {
-        "drug_class": "Tetracyclines",
-        "mechanism": "Efflux pump"
+      "ERG24": {
+        "drug_class": "Azoles",
+        "mechanism": "C-14 reductase"
       },
-      "tetB": {
-        "drug_class": "Tetracyclines",
-        "mechanism": "Efflux pump"
+      "ERG25": {
+        "drug_class": "Azoles",
+        "mechanism": "C-4 methyl oxidase"
       },
-      "sul1": {
+      "ERG26": {
+        "drug_class": "Azoles",
+        "mechanism": "C-3 dehydrogenase"
+      },
+      "ERG27": {
+        "drug_class": "Azoles",
+        "mechanism": "3-ketoreductase"
+      },
+      "CDR1": {
+        "drug_class": "Azoles",
+        "mechanism": "ABC transporter (major)"
+      },
+      "MDR1": {
+        "drug_class": "Azoles",
+        "mechanism": "MFS transporter"
+      },
+      "SNQ2": {
+        "drug_class": "Multidrug",
+        "mechanism": "ABC transporter"
+      },
+      "TAC1a": {
+        "drug_class": "Azoles",
+        "mechanism": "CDR1 regulator (clade-specific)"
+      },
+      "TAC1b": {
+        "drug_class": "Azoles",
+        "mechanism": "CDR1 regulator (clade-specific)"
+      },
+      "UPC2": {
+        "drug_class": "Azoles",
+        "mechanism": "Sterol uptake regulator"
+      },
+      "MRR1": {
+        "drug_class": "Azoles",
+        "mechanism": "MDR1 regulator"
+      },
+      "FKS1": {
+        "drug_class": "Echinocandins",
+        "mechanism": "\u03b2-1,3-glucan synthase (TARGET)"
+      },
+      "FKS2": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Alternative glucan synthase"
+      },
+      "CHS1": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Chitin synthase 1"
+      },
+      "CHS3": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Chitin synthase 3 (major)"
+      },
+      "HSP90": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Hsp90 chaperone"
+      },
+      "HSP70": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Hsp70 chaperone"
+      },
+      "CNA1": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Calcineurin A"
+      },
+      "CNB1": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Calcineurin B"
+      },
+      "CRZ1": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Calcineurin TF"
+      },
+      "FCY1": {
+        "drug_class": "Flucytosine",
+        "mechanism": "Cytosine deaminase"
+      },
+      "FUR1": {
+        "drug_class": "Flucytosine",
+        "mechanism": "Uracil PRTase"
+      }
+    }
+  },
+  "Aspergillus_fumigatus": {
+    "genes": {
+      "cyp51A": {
+        "drug_class": "Azoles",
+        "mechanism": "14\u03b1-demethylase (MAJOR TARGET)"
+      },
+      "cyp51B": {
+        "drug_class": "Azoles",
+        "mechanism": "Alternative 14\u03b1-demethylase"
+      },
+      "hmg1": {
+        "drug_class": "Azoles",
+        "mechanism": "HMG-CoA reductase"
+      },
+      "hmg2": {
+        "drug_class": "Azoles",
+        "mechanism": "HMG-CoA reductase isozyme"
+      },
+      "erg3": {
+        "drug_class": "Azoles",
+        "mechanism": "\u03945,6-desaturase"
+      },
+      "erg5": {
+        "drug_class": "Azoles",
+        "mechanism": "C-22 desaturase"
+      },
+      "erg6": {
+        "drug_class": "Azoles",
+        "mechanism": "C-24 methyltransferase"
+      },
+      "erg24": {
+        "drug_class": "Azoles",
+        "mechanism": "C-14 reductase"
+      },
+      "erg25": {
+        "drug_class": "Azoles",
+        "mechanism": "C-4 methyl oxidase"
+      },
+      "atrF": {
+        "drug_class": "Azoles",
+        "mechanism": "ABC transporter"
+      },
+      "atrG": {
+        "drug_class": "Azoles",
+        "mechanism": "ABC transporter"
+      },
+      "atrH": {
+        "drug_class": "Azoles",
+        "mechanism": "ABC transporter"
+      },
+      "mdr1": {
+        "drug_class": "Azoles",
+        "mechanism": "MFS transporter"
+      },
+      "mdr2": {
+        "drug_class": "Azoles",
+        "mechanism": "MFS transporter"
+      },
+      "mdr3": {
+        "drug_class": "Azoles",
+        "mechanism": "MFS transporter"
+      },
+      "mdr4": {
+        "drug_class": "Azoles",
+        "mechanism": "MFS transporter"
+      },
+      "atrR": {
+        "drug_class": "Azoles",
+        "mechanism": "ABC transporter regulator"
+      },
+      "hapE": {
+        "drug_class": "Azoles",
+        "mechanism": "Cyp51A regulator (CBC complex)"
+      },
+      "srbA": {
+        "drug_class": "Azoles",
+        "mechanism": "Sterol regulatory TF"
+      },
+      "fks1": {
+        "drug_class": "Echinocandins",
+        "mechanism": "\u03b2-1,3-glucan synthase (TARGET)"
+      },
+      "chsA": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Chitin synthase A"
+      },
+      "chsB": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Chitin synthase B"
+      },
+      "chsC": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Chitin synthase C"
+      },
+      "chsD": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Chitin synthase D"
+      },
+      "chsE": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Chitin synthase E"
+      },
+      "chsF": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Chitin synthase F"
+      },
+      "chsG": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Chitin synthase G"
+      },
+      "hsp90": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Hsp90 chaperone"
+      },
+      "cnaA": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Calcineurin A catalytic"
+      },
+      "cnaB": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Calcineurin B regulatory"
+      },
+      "crzA": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Calcineurin TF"
+      },
+      "erg2": {
+        "drug_class": "Polyenes",
+        "mechanism": "C-8 sterol isomerase"
+      },
+      "erg10": {
+        "drug_class": "Polyenes",
+        "mechanism": "Acetyl-CoA acetyltransferase"
+      },
+      "pmr1": {
+        "drug_class": "Multidrug",
+        "mechanism": "Ca2+/Mn2+ ATPase (azole tolerance)"
+      },
+      "medA": {
+        "drug_class": "Multidrug",
+        "mechanism": "Developmental regulator (biofilm)"
+      }
+    }
+  },
+  "Cryptococcus_neoformans": {
+    "genes": {
+      "ERG11": {
+        "drug_class": "Polyenes",
+        "mechanism": "Ergosterol pathway (shared)"
+      },
+      "ERG1": {
+        "drug_class": "Azoles",
+        "mechanism": "Squalene epoxidase"
+      },
+      "ERG2": {
+        "drug_class": "Azoles/Polyenes",
+        "mechanism": "C-8 sterol isomerase"
+      },
+      "ERG3": {
+        "drug_class": "Azoles/Polyenes",
+        "mechanism": "\u03945,6-desaturase"
+      },
+      "ERG4": {
+        "drug_class": "Azoles",
+        "mechanism": "C-24 sterol reductase"
+      },
+      "ERG5": {
+        "drug_class": "Azoles",
+        "mechanism": "C-22 desaturase"
+      },
+      "ERG6": {
+        "drug_class": "Azoles",
+        "mechanism": "C-24 methyltransferase"
+      },
+      "ERG7": {
+        "drug_class": "Azoles",
+        "mechanism": "Lanosterol synthase"
+      },
+      "ERG8": {
+        "drug_class": "Azoles",
+        "mechanism": "Phosphomevalonate kinase"
+      },
+      "ERG9": {
+        "drug_class": "Azoles",
+        "mechanism": "Squalene synthase"
+      },
+      "ERG10": {
+        "drug_class": "Azoles",
+        "mechanism": "Acetyl-CoA acetyltransferase"
+      },
+      "ERG13": {
+        "drug_class": "Azoles",
+        "mechanism": "HMG-CoA synthase"
+      },
+      "ERG20": {
+        "drug_class": "Azoles",
+        "mechanism": "Farnesyl PP synthetase"
+      },
+      "ERG24": {
+        "drug_class": "Azoles",
+        "mechanism": "C-14 reductase"
+      },
+      "ERG25": {
+        "drug_class": "Azoles",
+        "mechanism": "C-4 methyl oxidase"
+      },
+      "ERG26": {
+        "drug_class": "Azoles",
+        "mechanism": "C-3 dehydrogenase"
+      },
+      "ERG27": {
+        "drug_class": "Azoles",
+        "mechanism": "3-ketoreductase"
+      },
+      "AFR1": {
+        "drug_class": "Azoles",
+        "mechanism": "ABC transporter (major efflux)"
+      },
+      "AFR2": {
+        "drug_class": "Azoles",
+        "mechanism": "ABC transporter"
+      },
+      "MDR1": {
+        "drug_class": "Azoles",
+        "mechanism": "MFS transporter"
+      },
+      "SRE1": {
+        "drug_class": "Azoles",
+        "mechanism": "Sterol regulatory element binding protein"
+      },
+      "SCP2": {
+        "drug_class": "Azoles",
+        "mechanism": "SRE1 cleavage protein"
+      },
+      "FKS1": {
+        "drug_class": "Echinocandins",
+        "mechanism": "\u03b2-1,3-glucan synthase"
+      },
+      "CNA1": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Calcineurin A"
+      },
+      "CNB1": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Calcineurin B"
+      },
+      "CRZ1": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Calcineurin TF"
+      },
+      "HSP90": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Hsp90 chaperone"
+      },
+      "FCY1": {
+        "drug_class": "Flucytosine",
+        "mechanism": "Cytosine deaminase"
+      },
+      "FUR1": {
+        "drug_class": "Flucytosine",
+        "mechanism": "Uracil PRTase"
+      }
+    }
+  },
+  "Pneumocystis_jirovecii": {
+    "genes": {
+      "ERG11": {
+        "drug_class": "Azoles",
+        "mechanism": "14\u03b1-demethylase"
+      },
+      "DHPS": {
         "drug_class": "Sulfonamides",
-        "mechanism": "Target bypass"
+        "mechanism": "Dihydropteroate synthase (TARGET)"
       },
-      "sul2": {
-        "drug_class": "Sulfonamides",
-        "mechanism": "Target bypass"
-      },
-      "aac(6')-Ib": {
-        "drug_class": "Aminoglycosides",
-        "mechanism": "Drug modification"
-      },
-      "qnrS": {
-        "drug_class": "Quinolones",
-        "mechanism": "Target protection"
-      },
-      "mcr-1": {
-        "drug_class": "Colistin",
-        "mechanism": "Target modification"
-      }
-    }
-  },
-  "Klebsiella_pneumoniae": {
-    "genes": {
-      "blaKPC": {
-        "drug_class": "Carbapenems",
-        "mechanism": "Carbapenemase"
-      },
-      "blaNDM": {
-        "drug_class": "Carbapenems",
-        "mechanism": "Carbapenemase"
-      },
-      "blaOXA-48": {
-        "drug_class": "Carbapenems",
-        "mechanism": "Carbapenemase"
-      },
-      "blaCTX-M": {
-        "drug_class": "Cephalosporins",
-        "mechanism": "ESBL"
-      },
-      "blaSHV": {
-        "drug_class": "Beta-lactams",
-        "mechanism": "Beta-lactamase"
-      },
-      "blaTEM": {
-        "drug_class": "Beta-lactams",
-        "mechanism": "Beta-lactamase"
-      }
-    }
-  },
-  "Staphylococcus_aureus": {
-    "genes": {
-      "mecA": {
-        "drug_class": "Beta-lactams",
-        "mechanism": "PBP2a (MRSA)"
-      },
-      "vanA": {
-        "drug_class": "Glycopeptides",
-        "mechanism": "Target alteration"
-      },
-      "vanB": {
-        "drug_class": "Glycopeptides",
-        "mechanism": "Target alteration"
-      },
-      "aac(6')-Ie/aph(2'')": {
-        "drug_class": "Aminoglycosides",
-        "mechanism": "Drug modification"
-      },
-      "ermA": {
-        "drug_class": "Macrolides",
-        "mechanism": "Target modification"
-      },
-      "ermC": {
-        "drug_class": "Macrolides",
-        "mechanism": "Target modification"
-      },
-      "tetK": {
-        "drug_class": "Tetracyclines",
-        "mechanism": "Efflux pump"
-      },
-      "dfrA": {
+      "DHFR": {
         "drug_class": "Trimethoprim",
-        "mechanism": "Target bypass"
+        "mechanism": "Dihydrofolate reductase (TARGET)"
+      },
+      "CYB": {
+        "drug_class": "Atovaquone",
+        "mechanism": "Cytochrome b (TARGET)"
+      },
+      "FKS1": {
+        "drug_class": "Echinocandins",
+        "mechanism": "\u03b2-1,3-glucan synthase"
+      },
+      "HSP90": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Hsp90 chaperone"
+      },
+      "CNA1": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Calcineurin A"
+      },
+      "FCY1": {
+        "drug_class": "Flucytosine",
+        "mechanism": "Cytosine deaminase"
+      },
+      "ERG3": {
+        "drug_class": "Azoles/Polyenes",
+        "mechanism": "\u03945,6-desaturase"
+      },
+      "ATR1": {
+        "drug_class": "Azoles",
+        "mechanism": "ABC transporter"
       }
     }
   },
-  "Mycobacterium_tuberculosis": {
+  "Trichophyton_rubrum": {
     "genes": {
-      "rpoB": {
-        "drug_class": "Rifampicin",
-        "mechanism": "Drug target (RRDR mutations)"
+      "ERG1": {
+        "drug_class": "Azoles/Allylamines",
+        "mechanism": "Squalene epoxidase (TARGET)"
       },
-      "katG": {
-        "drug_class": "Isoniazid",
-        "mechanism": "Prodrug activation"
+      "ERG11": {
+        "drug_class": "Azoles",
+        "mechanism": "14\u03b1-demethylase (TARGET)"
       },
-      "inhA": {
-        "drug_class": "Isoniazid",
-        "mechanism": "Drug target"
+      "ERG3": {
+        "drug_class": "Azoles",
+        "mechanism": "\u03945,6-desaturase"
       },
-      "embB": {
-        "drug_class": "Ethambutol",
-        "mechanism": "Drug target"
+      "ERG5": {
+        "drug_class": "Azoles",
+        "mechanism": "C-22 desaturase"
       },
-      "pncA": {
-        "drug_class": "Pyrazinamide",
-        "mechanism": "Prodrug activation"
+      "ERG6": {
+        "drug_class": "Azoles",
+        "mechanism": "C-24 methyltransferase"
       },
-      "gyrA": {
-        "drug_class": "Fluoroquinolones",
-        "mechanism": "Drug target (QRDR)"
+      "ERG24": {
+        "drug_class": "Azoles",
+        "mechanism": "C-14 reductase"
       },
-      "rrs": {
-        "drug_class": "Aminoglycosides",
-        "mechanism": "Drug target"
+      "ERG25": {
+        "drug_class": "Azoles",
+        "mechanism": "C-4 methyl oxidase"
+      },
+      "ERG26": {
+        "drug_class": "Azoles",
+        "mechanism": "C-3 dehydrogenase"
+      },
+      "ERG27": {
+        "drug_class": "Azoles",
+        "mechanism": "3-ketoreductase"
+      },
+      "MDR1": {
+        "drug_class": "Azoles",
+        "mechanism": "MFS transporter"
+      },
+      "CDR1": {
+        "drug_class": "Azoles",
+        "mechanism": "ABC transporter"
+      },
+      "FKS1": {
+        "drug_class": "Echinocandins",
+        "mechanism": "\u03b2-1,3-glucan synthase"
+      },
+      "CHS1": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Chitin synthase 1"
+      },
+      "HSP90": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Hsp90 chaperone"
+      },
+      "SQLE": {
+        "drug_class": "Allylamines",
+        "mechanism": "Squalene epoxidase (Terbinafine TARGET)"
       }
     }
   }
