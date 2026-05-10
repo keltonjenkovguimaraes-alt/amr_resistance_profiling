@@ -1,0 +1,13 @@
+name: amr_profiling
+channels: [conda-forge, bioconda, defaults]
+dependencies:
+
+python=3.9
+
+matplotlib
+
+numpy
+
+pandas
+
+seaborn

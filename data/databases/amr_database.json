@@ -1,0 +1,418 @@
+{
+  "Candida_albicans": {
+    "genes": {
+      "ERG11": {
+        "drug_class": "Azoles",
+        "mechanism": "Drug target"
+      },
+      "FKS1": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Drug target"
+      },
+      "CDR1": {
+        "drug_class": "Azoles",
+        "mechanism": "Efflux pump"
+      },
+      "CDR2": {
+        "drug_class": "Azoles",
+        "mechanism": "Efflux pump"
+      },
+      "MDR1": {
+        "drug_class": "Azoles",
+        "mechanism": "Efflux pump"
+      },
+      "TAC1": {
+        "drug_class": "Azoles",
+        "mechanism": "Regulator"
+      },
+      "ERG3": {
+        "drug_class": "Polyenes",
+        "mechanism": "Target alteration"
+      },
+      "FCY1": {
+        "drug_class": "Flucytosine",
+        "mechanism": "Prodrug activation"
+      },
+      "FUR1": {
+        "drug_class": "Flucytosine",
+        "mechanism": "Prodrug activation"
+      },
+      "ERG1": {
+        "drug_class": "Azoles/Polyenes",
+        "mechanism": "Squalene epoxidase"
+      },
+      "ERG4": {
+        "drug_class": "Azoles",
+        "mechanism": "C-24 reductase"
+      },
+      "ERG7": {
+        "drug_class": "Azoles/Polyenes",
+        "mechanism": "Lanosterol synthase"
+      },
+      "ERG8": {
+        "drug_class": "Azoles",
+        "mechanism": "Phosphomevalonate kinase"
+      },
+      "ERG9": {
+        "drug_class": "Azoles",
+        "mechanism": "Squalene synthase"
+      },
+      "ERG12": {
+        "drug_class": "Azoles",
+        "mechanism": "Mevalonate kinase"
+      },
+      "ERG20": {
+        "drug_class": "Azoles",
+        "mechanism": "Farnesyl pyrophosphate synthetase"
+      },
+      "IDI1": {
+        "drug_class": "Azoles",
+        "mechanism": "Isopentenyl isomerase"
+      },
+      "MVD1": {
+        "drug_class": "Azoles",
+        "mechanism": "Mevalonate decarboxylase"
+      },
+      "UPC2": {
+        "drug_class": "Azoles",
+        "mechanism": "Sterol uptake regulator"
+      },
+      "SNQ2": {
+        "drug_class": "Multidrug",
+        "mechanism": "ABC transporter"
+      },
+      "YOR1": {
+        "drug_class": "Multidrug",
+        "mechanism": "ABC transporter"
+      },
+      "PDR5": {
+        "drug_class": "Multidrug",
+        "mechanism": "ABC transporter"
+      },
+      "PDR16": {
+        "drug_class": "Azoles",
+        "mechanism": "Lipid transfer protein"
+      },
+      "FLU1": {
+        "drug_class": "Azoles",
+        "mechanism": "MFS transporter"
+      },
+      "TPO1": {
+        "drug_class": "Multidrug",
+        "mechanism": "MFS transporter"
+      },
+      "QDR1": {
+        "drug_class": "Multidrug",
+        "mechanism": "MFS transporter"
+      },
+      "AUS1": {
+        "drug_class": "Azoles",
+        "mechanism": "ABC sterol transporter"
+      },
+      "PDR11": {
+        "drug_class": "Azoles",
+        "mechanism": "ABC sterol transporter"
+      },
+      "MLT1": {
+        "drug_class": "Multidrug",
+        "mechanism": "Vacuolar ABC transporter"
+      },
+      "YCF1": {
+        "drug_class": "Multidrug",
+        "mechanism": "Vacuolar ABC transporter"
+      },
+      "VMR1": {
+        "drug_class": "Multidrug",
+        "mechanism": "Vacuolar ABC transporter"
+      },
+      "BPT1": {
+        "drug_class": "Multidrug",
+        "mechanism": "Vacuolar ABC transporter"
+      },
+      "GAP1": {
+        "drug_class": "Multidrug",
+        "mechanism": "Amino acid MFS transporter"
+      },
+      "CHS4": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Chitin synthase regulator"
+      },
+      "CHS5": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Chitin synthase regulator"
+      },
+      "CHS7": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Chitin synthase regulator"
+      },
+      "PKC1": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Cell wall integrity kinase"
+      },
+      "MKC1": {
+        "drug_class": "Echinocandins",
+        "mechanism": "MAP kinase - cell wall"
+      },
+      "BCK1": {
+        "drug_class": "Echinocandins",
+        "mechanism": "MAPKK - cell wall"
+      },
+      "RHO1": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Glucan synthase activator"
+      },
+      "WSC1": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Cell wall stress sensor"
+      },
+      "MID2": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Cell wall sensor"
+      },
+      "MNN1": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Mannosyltransferase"
+      },
+      "MNN2": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Mannosyltransferase"
+      },
+      "MNN9": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Mannan synthesis"
+      },
+      "OCH1": {
+        "drug_class": "Echinocandins",
+        "mechanism": "Mannosyltransferase"
+      },
+      "PMT1": {
+        "drug_class": "Echinocandins",
+        "mechanism": "O-mannosyltransferase"
+      },
+      "PMT2": {
+        "drug_class": "Echinocandins",
+        "mechanism": "O-mannosyltransferase"
+      },
+      "PMT4": {
+        "drug_class": "Echinocandins",
+        "mechanism": "O-mannosyltransferase"
+      },
+      "HSP60": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Mitochondrial chaperone"
+      },
+      "HSP104": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Protein disaggregase"
+      },
+      "HSP12": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Small heat shock protein"
+      },
+      "SSA1": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Hsp70 ATPase"
+      },
+      "SSA2": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Hsp70 ATPase"
+      },
+      "STI1": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Hsp90 co-chaperone"
+      },
+      "CDC37": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Kinase targeting chaperone"
+      },
+      "AHA1": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Hsp90 activator"
+      },
+      "CMK1": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Ca/calmodulin kinase"
+      },
+      "CMK2": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Ca/calmodulin kinase"
+      },
+      "SOD3": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Superoxide dismutase"
+      },
+      "TRR1": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Thioredoxin reductase"
+      },
+      "GLR1": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Glutathione reductase"
+      },
+      "PRX1": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Peroxiredoxin"
+      },
+      "RAD52": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "DNA repair protein"
+      },
+      "RAD53": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "Checkpoint kinase"
+      },
+      "MEC1": {
+        "drug_class": "Drug Tolerance",
+        "mechanism": "DNA damage sensor kinase"
+      }
+    }
+  },
+  "Escherichia_coli": {
+    "genes": {
+      "blaTEM": {
+        "drug_class": "Beta-lactams",
+        "mechanism": "Beta-lactamase"
+      },
+      "blaSHV": {
+        "drug_class": "Beta-lactams",
+        "mechanism": "Beta-lactamase"
+      },
+      "blaCTX-M": {
+        "drug_class": "Cephalosporins",
+        "mechanism": "ESBL"
+      },
+      "blaKPC": {
+        "drug_class": "Carbapenems",
+        "mechanism": "Carbapenemase"
+      },
+      "blaNDM": {
+        "drug_class": "Carbapenems",
+        "mechanism": "Carbapenemase"
+      },
+      "tetA": {
+        "drug_class": "Tetracyclines",
+        "mechanism": "Efflux pump"
+      },
+      "tetB": {
+        "drug_class": "Tetracyclines",
+        "mechanism": "Efflux pump"
+      },
+      "sul1": {
+        "drug_class": "Sulfonamides",
+        "mechanism": "Target bypass"
+      },
+      "sul2": {
+        "drug_class": "Sulfonamides",
+        "mechanism": "Target bypass"
+      },
+      "aac(6')-Ib": {
+        "drug_class": "Aminoglycosides",
+        "mechanism": "Drug modification"
+      },
+      "qnrS": {
+        "drug_class": "Quinolones",
+        "mechanism": "Target protection"
+      },
+      "mcr-1": {
+        "drug_class": "Colistin",
+        "mechanism": "Target modification"
+      }
+    }
+  },
+  "Klebsiella_pneumoniae": {
+    "genes": {
+      "blaKPC": {
+        "drug_class": "Carbapenems",
+        "mechanism": "Carbapenemase"
+      },
+      "blaNDM": {
+        "drug_class": "Carbapenems",
+        "mechanism": "Carbapenemase"
+      },
+      "blaOXA-48": {
+        "drug_class": "Carbapenems",
+        "mechanism": "Carbapenemase"
+      },
+      "blaCTX-M": {
+        "drug_class": "Cephalosporins",
+        "mechanism": "ESBL"
+      },
+      "blaSHV": {
+        "drug_class": "Beta-lactams",
+        "mechanism": "Beta-lactamase"
+      },
+      "blaTEM": {
+        "drug_class": "Beta-lactams",
+        "mechanism": "Beta-lactamase"
+      }
+    }
+  },
+  "Staphylococcus_aureus": {
+    "genes": {
+      "mecA": {
+        "drug_class": "Beta-lactams",
+        "mechanism": "PBP2a (MRSA)"
+      },
+      "vanA": {
+        "drug_class": "Glycopeptides",
+        "mechanism": "Target alteration"
+      },
+      "vanB": {
+        "drug_class": "Glycopeptides",
+        "mechanism": "Target alteration"
+      },
+      "aac(6')-Ie/aph(2'')": {
+        "drug_class": "Aminoglycosides",
+        "mechanism": "Drug modification"
+      },
+      "ermA": {
+        "drug_class": "Macrolides",
+        "mechanism": "Target modification"
+      },
+      "ermC": {
+        "drug_class": "Macrolides",
+        "mechanism": "Target modification"
+      },
+      "tetK": {
+        "drug_class": "Tetracyclines",
+        "mechanism": "Efflux pump"
+      },
+      "dfrA": {
+        "drug_class": "Trimethoprim",
+        "mechanism": "Target bypass"
+      }
+    }
+  },
+  "Mycobacterium_tuberculosis": {
+    "genes": {
+      "rpoB": {
+        "drug_class": "Rifampicin",
+        "mechanism": "Drug target (RRDR mutations)"
+      },
+      "katG": {
+        "drug_class": "Isoniazid",
+        "mechanism": "Prodrug activation"
+      },
+      "inhA": {
+        "drug_class": "Isoniazid",
+        "mechanism": "Drug target"
+      },
+      "embB": {
+        "drug_class": "Ethambutol",
+        "mechanism": "Drug target"
+      },
+      "pncA": {
+        "drug_class": "Pyrazinamide",
+        "mechanism": "Prodrug activation"
+      },
+      "gyrA": {
+        "drug_class": "Fluoroquinolones",
+        "mechanism": "Drug target (QRDR)"
+      },
+      "rrs": {
+        "drug_class": "Aminoglycosides",
+        "mechanism": "Drug target"
+      }
+    }
+  }
+}
